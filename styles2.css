@@ -1,0 +1,124 @@
+@import url(https://fonts.google.com/specimen/Poppins?query=poppins);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(216, 201, 133), rgb(102, 216, 102));
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display:block;
+    height: 280px;
+    width: 250px;
+    background-image: linear-gradient(rgb(216, 202, 140), rgb(155, 211, 155));
+    position: relative;
+    border-radius: 20px;
+    border: 2px solid #000;
+    align-items: center;
+    justify-content: center;
+}
+#login-text {
+    text-align: center;
+    font-weight: 600;
+    background-color: rgb(216, 202, 140);
+    border-bottom: 2px solid #000;
+    border-radius: 20px;
+    padding: 4px;
+    letter-spacing: 2.5px;
+}
+ 
+#button {
+    background-color: rgb(206, 187, 104);
+    padding: 0.5vh;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    text-size-adjust: 50px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 10px;
+    transition: 0.5s ease-in-out;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+#button:hover {
+    scale: 1.1;
+    background-color: rgb(188, 230, 188);
+    font-weight:bolder;
+    cursor: pointer;
+}
+
+#user-email, #psw {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #000;
+    color: #000;
+    height: 30px;
+    transition: transform 1s;
+    padding-left: 5px;
+    margin: 30px 0 10px 10px;
+}
+
+#user-email{
+    width: 90%;
+}
+
+#psw {
+    width:70%;
+}
+
+.container:hover input{
+    transform: scale(1.04);
+}
+
+#bns {
+    display: flex;
+    font-size: 12px;
+    text-decoration: underline none;
+    justify-content: space-between;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+
+#toggle {
+    padding: 2px;
+    border-radius: 8px;
+    background-color: transparent;
+    font-size: 14px;
+    margin-left: 2px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 2s;
+}
+
+#toggle:hover {
+    scale: 1.1;
+}
+
+#en-lang, #ru-lang {
+    width:44px;
+    font-size: 12px;
+    margin-top: 2px;
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#lab-lang {
+    font-size: 15px;
+    margin-left: 10px;
+}
